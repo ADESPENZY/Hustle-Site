@@ -34,7 +34,7 @@ const HeroSection = () => {
   }, [isHovered]);
 
   return (
-    <section className="pt-24 pb-14 max-w-7xl px-10 mx-auto space-y-16">
+    <section className="pt-24 pb-14 max-w-7xl mx-auto space-y-16">
       <div className="font-inter flex flex-col md:flex-row items-center">
         {/* Left Side: Text and Buttons */}
         <div className="w-full md:w-1/2 space-y-7 px-4">
