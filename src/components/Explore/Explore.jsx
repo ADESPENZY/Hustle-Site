@@ -5,7 +5,7 @@ import { exploreCardData } from '@/data/exploreCards'
 
 const Explore = () => {
   return (
-    <section id="about" className='max-w-7xl mx-auto py-16 space-y-10'>
+    <section id="about" className='md:w-[80%]  mx-auto py-16 space-y-10'>
       <div className='flex justify-between items-end'>
         <div className='max-w-xl space-y-5 relative'>
             <h3 className='text-primary '>Explore Countless Benefits</h3>

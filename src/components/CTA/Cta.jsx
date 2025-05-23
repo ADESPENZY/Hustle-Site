@@ -3,7 +3,7 @@ import React from 'react'
 
 const Cta = () => {
   return (
-    <section className='py-16 max-w-7xl mx-auto'>
+    <section className='py-16 md:w-[80%]  mx-auto'>
         <div className='flex flex-col items-center justify-center space-y-6 '>
              <div className='flex items-center space-x-3 '>
                 <div className="flex">

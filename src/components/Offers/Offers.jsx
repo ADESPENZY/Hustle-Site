@@ -2,7 +2,7 @@ import React from 'react'
 
 const Offers = () => {
   return (
-    <section className='py-10 max-w-7xl mx-auto flex items-center justify-between'>
+    <section className='py-10 md:w-[80%]  mx-auto flex items-center justify-between'>
         <div className='space-y-2 text-center px-4'>
             <h3 className='font-bold text-xl'>50K+</h3>
             <p className='text-sm'>Users Across Africa</p>

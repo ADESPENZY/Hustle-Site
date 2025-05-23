@@ -6,7 +6,7 @@ import { Input } from '../ui/input'
 
 const Expand = () => {
   return (
-    <section className='max-w-7xl mx-auto pt-16 '>
+    <section className='md:w-[80%]  mx-auto pt-16 '>
         <div className='max-w-5xl mx-auto grid grid-cols-3 gap-8 '>
             <div className='h-3 bg-primary rounded-full animate-glow'></div>
             <div className='h-3 bg-primary rounded-full animate-glow'></div>

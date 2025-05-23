@@ -4,7 +4,7 @@ import CardSection from '../CardSection'
 
 const Enterpreneur = () => {
   return (
-    <div className='max-w-7xl mx-auto pt-16 '>
+    <div className='md:w-[90%]  ml-auto pt-16 '>
       <div className='max-w-5xl mx-auto grid grid-cols-3 gap-8 '>
         <div className='h-3 bg-primary rounded-full animate-glow'></div>
         <div className='h-3 bg-primary rounded-full animate-glow'></div>
@@ -250,7 +250,7 @@ const Enterpreneur = () => {
             </div>
           </div>  
         </div>
-        <div class="absolute bg-[#14182E] w-[570px] h-[607px] top-0 left-[860px] rounded-[32px] inner-shadow flex items-center justify-center" >
+        <div class="absolute bg-[#14182E] w-[560px] h-[607px] top-0 left-[860px] rounded-[32px] inner-shadow flex items-center justify-center" >
           <div className="h-[303px] w-1/2 bg-primary boxing-shadow relative mx-auto">
             {/* Top Center Glow */}
             <div className="bg-[#14182E] absolute left-1/2 top-0 -translate-x-1/2 w-36 h-14 animate-blackGlow shadow-primary shadow-inner z-10"></div>
