@@ -4,7 +4,7 @@ import CardSection from '../CardSection'
 
 const Fueling = () => {
   return (
-    <section id='solutions' className='md:w-[80%] mx-auto pt-16 '>
+    <section id='solutions' className='max-w-7xl mx-auto pt-16 '>
         <div className='flex flex-col items-center justify-center max-w-md mx-auto '>
             <h2 className='text-primary text-lg'>Fueling the Hustle Spirit Across Africa</h2>
             <h1 className='font-semibold text-center text-4xl mt-3'>Comprehensive. Secure. <span className='font-dancing'>Community</span>-Centric.</h1>

@@ -4,14 +4,14 @@ import CardSection from '../CardSection'
 
 const Enterpreneur = () => {
   return (
-    <div className='md:w-[90%]  ml-auto pt-16 '>
+    <div className='max-w-7xl ml-auto pt-16 overflow-x-hidden pl-10 '>
       <div className='max-w-5xl mx-auto grid grid-cols-3 gap-8 '>
         <div className='h-3 bg-primary rounded-full animate-glow'></div>
         <div className='h-3 bg-primary rounded-full animate-glow'></div>
         <div className='h-3 bg-primary rounded-full animate-glow'></div>
       </div>
-      <div className='flex flex-row items-end justify-between mt-16 text-white relative'>
-        <div className='w-[65%] space-y-10'>
+      <div className='flex flex-row items-end  mt-16 text-white relative'>
+        <div className='w-[60%] space-y-10'>
           <div className='max-w-lg text-white space-y-5'>
             <h1 className='text-4xl md:text-5xl font-semibold'>The future of African entrepreneurship starts with you.</h1>  
             <p className='text-sm text-gray-400'>Download Hustle and take charge of your hustle journey—securely, globally, and unapologetically.</p>  
@@ -24,7 +24,7 @@ const Enterpreneur = () => {
               </div>
             </div>            
           </div>
-          <div className='flex items-start -space-x-5 relative'>
+          <div className='flex items-start -space-x-5 relative h-[500px] overflow-y-hidden '>
             <div className='bg-white rounded-2xl w-72 '>
               <div className='flex justify-between items-center m-5 text-black mb-4'>
                 <span className='text-xs '>11:36</span>
@@ -85,7 +85,7 @@ const Enterpreneur = () => {
               </div>
               
             </div>  
-            <div className='bg-white rounded-2xl w-72'>
+            <div className='bg-white rounded-2xl w-72 '>
               <div className='flex justify-between items-center m-5 text-black mb-4'>
                 <span className='text-xs '>11:36</span>
                 <div className='space-x-3 flex '>
@@ -162,7 +162,7 @@ const Enterpreneur = () => {
                 </div> */}
               </div>
             </div>   
-            <div className='bg-white rounded-2xl w-72 h-[] relative'>
+            <div className='bg-white rounded-2xl w-72 relative'>
               
               {/* Top Bar */}
               <div className='flex justify-between items-center m-5 text-black mb-4'>
@@ -250,7 +250,7 @@ const Enterpreneur = () => {
             </div>
           </div>  
         </div>
-        <div class="absolute bg-[#14182E] w-[560px] h-[607px] top-0 left-[860px] rounded-[32px] inner-shadow flex items-center justify-center" >
+        <div class="absolute bg-[#14182E] md:w-[560px] h-[607px] top-0 left-[830px] rounded-[32px] inner-shadow flex items-center justify-center" >
           <div className="h-[303px] w-1/2 bg-primary boxing-shadow relative mx-auto">
             {/* Top Center Glow */}
             <div className="bg-[#14182E] absolute left-1/2 top-0 -translate-x-1/2 w-36 h-14 animate-blackGlow shadow-primary shadow-inner z-10"></div>
