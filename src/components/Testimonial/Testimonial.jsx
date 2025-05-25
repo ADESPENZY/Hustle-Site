@@ -3,7 +3,7 @@ import React from 'react'
 
 const Testimonial = () => {
   return (
-    <section id="testimonials" className='max-w-7xl mx-auto pt-24 px-10 '>
+    <section id="testimonials" className='max-w-7xl mx-auto pt-24 px-5 md:px-10 '>
         <div className='flex flex-col items-center justify-center max-w-md mx-auto '>
              <div className='flex items-center space-x-3'>
                 <div className="flex">
