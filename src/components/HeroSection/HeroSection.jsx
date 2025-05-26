@@ -154,7 +154,7 @@ const HeroSection = () => {
               </div>
             </div>
             {/* Phone Screen 3 */}
-            <div className="relative w-full h-[450px] bg-white p-1 pb-0 rounded-t-2xl shadow-lg overflow-hidden ">
+            <div className="relative w-full h-[350px] md:h-[450px] bg-white p-1 pb-0 rounded-t-2xl shadow-lg overflow-hidden ">
               <div className="w-full h-full bg-gradient-to-br bg-[#FF8BC1] rounded-t-2xl p-3 text-gray-200 ">
                 <CardSection/>
                 <div className='flex justify-between mt-5'>

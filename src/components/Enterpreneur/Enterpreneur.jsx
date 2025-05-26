@@ -4,27 +4,28 @@ import CardSection from '../CardSection'
 
 const Enterpreneur = () => {
   return (
-    <div className='max-w-7xl mx-auto pt-8 sm:pt-8 md:pt-16 px-5 md:px-0 overflow-x-hidden'>
-      <div className='max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-4 sm:gap-4 md:gap-8'>
-        <div className='h-2 sm:h-2 md:h-3 bg-primary rounded-full animate-glow'></div>
-        <div className='h-2 sm:h-2 md:h-3 bg-primary rounded-full animate-glow'></div>
-        <div className='h-2 sm:h-2 md:h-3 bg-primary rounded-full animate-glow'></div>
+    <div className='max-w-7xl mx-auto pt-8 sm:pt-8 md:pt-16 md:pb-0 px-5 md:px-10 overflow-x-hidden'>
+      <div className='max-w-5xl mx-auto grid grid-cols-3 gap-8 '>
+        <div className='h-3 bg-primary rounded-full animate-glow'></div>
+        <div className='h-3 bg-primary rounded-full animate-glow'></div>
+        <div className='h-3 bg-primary rounded-full animate-glow'></div>
       </div>
-      <div className='flex flex-col sm:flex-col md:flex-row items-center md:items-end mt-8 sm:mt-8 md:mt-16 text-white relative'>
+      <div className='flex flex-col sm:flex-col md:flex-row items-center space-y-10 md:space-y-0 md:items-end mt-8 sm:mt-8 md:mt-16 text-white relative'>
         <div className='w-full sm:w-full md:w-[60%] space-y-6 sm:space-y-6 md:space-y-10'>
-          <div className='max-w-md sm:max-w-md md:max-w-lg text-white space-y-4 sm:space-y-4 md:space-y-5'>
+          <div className='max-w-md sm:max-w-md md:max-w-lg text-white space-y-4 sm:space-y-4 md:space-y-5 text-center md:text-start'>
             <h1 className='text-2xl sm:text-3xl md:text-5xl font-semibold'>The future of African entrepreneurship starts with you.</h1>  
             <p className='text-xs sm:text-xs md:text-sm text-gray-400'>Download Hustle and take charge of your hustle journey—securely, globally, and unapologetically.</p>  
             <div className='flex flex-col sm:flex-col md:flex-row items-center space-y-3 sm:space-y-3 md:space-y-0 md:space-x-5'>
-              <div className="bg-primary text-white py-1 sm:py-1 md:py-2 px-3 sm:px-3 md:px-4 rounded-md hover:bg-secondary transition-colors text-sm sm:text-sm md:text-base">
+              <div className="bg-primary text-white py-2 sm:py-1 md:py-2 px-3 sm:px-3 md:px-4 rounded-md hover:bg-secondary transition-colors text-sm sm:text-sm md:text-base">
                 <span>DownLoad On Appstore</span>
               </div>
-              <div className="bg-white text-black py-1 sm:py-1 md:py-2 px-3 sm:px-3 md:px-4 rounded-md transition-colors text-sm sm:text-sm md:text-base">
+              <div className="bg-white text-black py-2 sm:py-1 md:py-2 px-3 sm:px-3 md:px-4 rounded-md transition-colors text-sm sm:text-sm md:text-base">
                 <span className='font-semibold'>DownLoad On Playstore</span>
               </div>
             </div>            
           </div>
           <div className='flex flex-col sm:flex-col md:flex-row items-start space-y-4 sm:space-y-4 md:-space-x-5 relative h-[300px] sm:h-[400px] md:h-[500px] overflow-y-hidden'>
+            
             <div className='bg-white rounded-2xl w-full sm:w-64 md:w-72'>
               <div className='flex justify-between items-center m-3 sm:m-3 md:m-5 text-black mb-3 sm:mb-3 md:mb-4'>
                 <span className='text-xs sm:text-xs md:text-xs'>11:36</span>
@@ -83,7 +84,7 @@ const Enterpreneur = () => {
                   <p className='text-xs sm:text-xs md:text-xs text-gray-400'>Card can be used online globally</p>
                 </div>
               </div>
-            </div>  
+            </div>   
             <div className='bg-white rounded-2xl w-full sm:w-64 md:w-72'>
               <div className='flex justify-between items-center m-3 sm:m-3 md:m-5 text-black mb-3 sm:mb-3 md:mb-4'>
                 <span className='text-xs sm:text-xs md:text-xs'>11:36</span>
@@ -212,8 +213,8 @@ const Enterpreneur = () => {
             </div>
           </div>  
         </div>
-        <div className="relative sm:absolute md:absolute bg-[#14182E] w-full sm:w-[450px] md:w-[570px] h-[450px] sm:h-[500px] md:h-[607px] sm:top-0 md:top-0 sm:left-[calc(100%-450px)] md:left-[830px] rounded-[24px] sm:rounded-[24px] md:rounded-[32px] inner-shadow flex items-center justify-center">
-          <div className="h-[250px] sm:h-[280px] md:h-[303px] w-full sm:w-3/4 md:w-1/2 bg-primary boxing-shadow relative mx-auto">
+        <div className="relative md:px-0 px-5 sm:absolute md:absolute bg-[#14182E] w-full sm:w-[450px] md:w-[570px] h-[450px] sm:h-[500px] md:h-[607px] sm:top-0 md:top-0 sm:left-[calc(100%-450px)] md:left-[830px] rounded-[24px] sm:rounded-[24px] md:rounded-[32px] inner-shadow flex items-center justify-center">
+          <div className="h-[250px] sm:h-[280px] md:h-[303px] w-full sm:w-2/4 md:w-1/2 bg-primary boxing-shadow relative mx-auto">
             <div className="bg-[#14182E] absolute left-1/2 top-0 -translate-x-1/2 w-28 sm:w-28 md:w-36 h-10 sm:h-12 md:h-14 animate-blackGlow shadow-primary shadow-inner z-10"></div>
             <div className="bg-[#14182E] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-28 sm:w-28 md:w-36 h-10 sm:h-12 md:h-14 animate-blackGlow shadow-primary shadow-inner z-10"></div>
             <div className="bg-[#14182E] absolute left-1/2 bottom-0 -translate-x-1/2 w-28 sm:w-28 md:w-36 h-10 sm:h-12 md:h-14 animate-blackGlow shadow-primary shadow-inner z-10"></div>

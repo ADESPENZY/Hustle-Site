@@ -27,14 +27,14 @@ const Fueling = () => {
         <section className="pt-8">
           <div className="relative overflow-x-hidden py-4">
             <div
-              className="flex items-center gap-6 w-[200%] px-4 animate-scroll"
+              className="flex items-center gap-6 md:w-[200%] px-4 animate-scroll"
               style={{
                 animation: 'scroll 30s linear infinite', // Auto-scroll animation
               }}
             >
               {/* Card 1 - Dashboard Overview */}
               <div
-                className=" h-fit bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl shadow-lg py-2 px-6 flex flex-col transform transition-all duration-300 hover:scale-105"
+                className="h-fit bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl shadow-lg py-2 px-6 flex flex-col transform transition-all duration-300 hover:scale-105"
                 style={{
                   backgroundImage: "url('https://www.transparenttextures.com/patterns/leather.png')",
                   backgroundSize: 'cover',
@@ -85,7 +85,7 @@ const Fueling = () => {
                     </div>
                     <h3 className='text-white font-semibold text-sm'>N Naira Card</h3>
                   </div>
-                  <div className='space-y-2'>
+                  <div className='hidden md:block space-y-2'>
                     <p className='text-xs text-gray-400'>Choose Your Card Brand</p>
                     <div className='bg-white p-2 rounded-md flex justify-between items-center '>
                       <div className=' flex items-center space-x-3 '>
@@ -155,7 +155,7 @@ const Fueling = () => {
                     </div>
                     <h3 className='text-white font-semibold text-sm'>N Naira Card</h3>
                   </div>
-                  <div className='space-y-2'>
+                  <div className='hidden md:block space-y-2'>
                     <p className='text-xs text-gray-400'>Choose Your Card Brand</p>
                     <div className='bg-white p-2 rounded-md flex justify-between items-center '>
                       <div className=' flex items-center space-x-3 '>
@@ -225,7 +225,7 @@ const Fueling = () => {
                     </div>
                     <h3 className='text-white font-semibold text-sm'>N Naira Card</h3>
                   </div>
-                  <div className='space-y-2'>
+                  <div className='hidden md:block space-y-2'>
                     <p className='text-xs text-gray-400'>Choose Your Card Brand</p>
                     <div className='bg-white p-2 rounded-md flex justify-between items-center '>
                       <div className=' flex items-center space-x-3 '>
@@ -295,7 +295,7 @@ const Fueling = () => {
                     </div>
                     <h3 className='text-white font-semibold text-sm'>N Naira Card</h3>
                   </div>
-                  <div className='space-y-2'>
+                  <div className='hidden md:block space-y-2'>
                     <p className='text-xs text-gray-400'>Choose Your Card Brand</p>
                     <div className='bg-white p-2 rounded-md flex justify-between items-center '>
                       <div className=' flex items-center space-x-3 '>
@@ -365,7 +365,7 @@ const Fueling = () => {
                     </div>
                     <h3 className='text-white font-semibold text-sm'>N Naira Card</h3>
                   </div>
-                  <div className='space-y-2'>
+                  <div className='hidden md:block space-y-2'>
                     <p className='text-xs text-gray-400'>Choose Your Card Brand</p>
                     <div className='bg-white p-2 rounded-md flex justify-between items-center '>
                       <div className=' flex items-center space-x-3 '>
@@ -435,7 +435,7 @@ const Fueling = () => {
                     </div>
                     <h3 className='text-white font-semibold text-sm'>N Naira Card</h3>
                   </div>
-                  <div className='space-y-2'>
+                  <div className='hidden md:block space-y-2'>
                     <p className='text-xs text-gray-400'>Choose Your Card Brand</p>
                     <div className='bg-white p-2 rounded-md flex justify-between items-center '>
                       <div className=' flex items-center space-x-3 '>
@@ -505,7 +505,7 @@ const Fueling = () => {
                     </div>
                     <h3 className='text-white font-semibold text-sm'>N Naira Card</h3>
                   </div>
-                  <div className='space-y-2'>
+                  <div className='hidden md:block space-y-2'>
                     <p className='text-xs text-gray-400'>Choose Your Card Brand</p>
                     <div className='bg-white p-2 rounded-md flex justify-between items-center '>
                       <div className=' flex items-center space-x-3 '>

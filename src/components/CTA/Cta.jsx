@@ -5,7 +5,7 @@ const Cta = () => {
   return (
     <section className='py-8 sm:py-8 md:py-16 w-full sm:w-full md:w-[80%] mx-auto'>
         <div className='flex flex-col items-center justify-center space-y-4 sm:space-y-4 md:space-y-6'>
-             <div className='flex flex-col sm:flex-col md:flex-row items-center space-y-2 sm:space-y-2 md:space-y-0 md:space-x-3'>
+            <div className='flex flex-col sm:flex-col md:flex-row items-center space-y-2 sm:space-y-2 md:space-y-0 md:space-x-3'>
                 <div className='flex'>
                     <img
                         src="/images/heroimg1.webp"
@@ -37,11 +37,11 @@ const Cta = () => {
             </div>
             <h1 className='font-semibold text-center text-4xl sm:text-5xl md:text-8xl mt-2 sm:mt-2 md:mt-3'>You <span className='font-dancing'>can’t</span> go wrong with Hustle App</h1>
             <div className="flex flex-col sm:flex-col md:flex-row items-center space-y-2 sm:space-y-2 md:space-y-0 md:space-x-4">
-                <div className="flex items-center space-x-1 sm:space-x-1 md:space-x-2 bg-primary text-white py-1 sm:py-1 md:py-2 px-3 sm:px-3 md:px-4 rounded-md hover:bg-secondary transition-colors text-xs sm:text-xs md:text-base">
+                <div className="flex items-center space-x-1 sm:space-x-1 md:space-x-2 bg-primary text-white py-2 sm:py-1 md:py-2 px-3 sm:px-3 md:px-4 rounded-md hover:bg-secondary transition-colors text-xs sm:text-xs md:text-base">
                     <span>Download Hustle</span>
                     <Download size={16} sm:size={16} md:size={20} />
                 </div>
-                <div className="flex items-center bg-black py-1 sm:py-1 md:py-2 px-3 sm:px-3 md:px-4 rounded-md space-x-1 sm:space-x-1 md:space-x-2 text-white font-medium hover:text-secondary transition-colors text-xs sm:text-xs md:text-base">
+                <div className="flex items-center bg-black py-2 sm:py-1 md:py-2 px-3 sm:px-3 md:px-4 rounded-md space-x-1 sm:space-x-1 md:space-x-2 text-white font-medium hover:text-secondary transition-colors text-xs sm:text-xs md:text-base">
                     <span>Visit Marketplace</span>
                     <ArrowRight size={16} sm:size={16} md:size={20} />
                 </div>

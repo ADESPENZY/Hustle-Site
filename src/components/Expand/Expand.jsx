@@ -6,7 +6,7 @@ import { Input } from '../ui/input'
 
 const Expand = () => {
   return (
-    <section className='max-w-7xl mx-auto pt-16 px-5 md:px-10'>
+    <section className='max-w-7xl mx-auto pt-16 px-5 md:px-0'>
         <div className='max-w-5xl mx-auto grid grid-cols-3 gap-8 '>
             <div className='h-3 bg-primary rounded-full animate-glow'></div>
             <div className='h-3 bg-primary rounded-full animate-glow'></div>
@@ -16,16 +16,16 @@ const Expand = () => {
             <div className='max-w-md text-white space-y-5'>
                 <h1 className='text-4xl md:text-5xl font-semibold'>Expand your business horizons using <span className='font-dancing'>Hustle</span></h1>
                 <div className='flex md:flex-row flex-col md:space-x-2'>
-                    <div className='flex space-x-1 items-center text-gray-200'>
-                        <Check size={10} />
+                    <div className='flex space-x-2 items-center text-gray-200'>
+                        <Check size={14} className='text-primary' />
                         <p className='text-xs'>Usable On Web</p>
                     </div>
-                    <div className='flex space-x-1 items-center text-gray-200'>
-                        <Check size={10} />
+                    <div className='flex space-x-2 items-center text-gray-200'>
+                        <Check size={14} className='text-primary' />
                         <p className='text-xs'>Setup In Three minutes</p>
                     </div>
-                    <div className='flex space-x-1 items-center text-gray-200'>
-                        <Check size={10} />
+                    <div className='flex space-x-2 items-center text-gray-200'>
+                        <Check size={14} className='text-primary' />
                         <p className='text-xs'>Sell Your Product</p>
                     </div>
                 </div>
@@ -51,35 +51,35 @@ const Expand = () => {
                 </div>
             </div>
             <div className='space-y-5 max-w-md'>
-                <div className='flex items-center space-x-3'>
+                <div className='flex flex-col md:flex-row items-center space-y-3 md:space-y-0 space-x-3'>
                     <div className="flex">
                         <img
                             src="/images/heroimg1.webp"
                             alt="Hero Image 1"
-                            className="h-10 w-10 rounded-md border-2 border-primary"
+                            className="h-8 w-8 rounded-md border-2 border-primary"
                         />
                         
                         <img
                             src="/images/heroimg2.webp"
                             alt="Hero Image 2"
-                            className="h-10 w-10 -mx-2 rounded-md border-2 border-primary"
+                            className="h-8 w-8 -mx-2 rounded-md border-2 border-primary"
                         />
                         <img
                             src="/images/heroimg3.webp"
                             alt="Hero Image 3"
-                            className="h-10 w-10 rounded-md border-2 border-primary"
+                            className="h-8 w-8 rounded-md border-2 border-primary"
                         />
                     </div>
                     <p className='text-md text-primary'>JOIN 20,000 PEOPLE IN SELLING STUFFS</p>
                 </div>
-                <p className='text-md text-gray-400'>Whether you’re a product seller, service provider, or content creator, Hustle gives you the tools to grow your digital business with ease</p>
+                <p className='text-md text-center md:text-start text-gray-400'>Whether you’re a product seller, service provider, or content creator, Hustle gives you the tools to grow your digital business with ease</p>
                 <div className="flex items-center justify-center space-x-2 bg-primary text-white py-2 px-4 rounded-md hover:bg-secondary transition-colors">
                     <span>Visit Marketplace</span>
                     <ArrowRight size={20} />
                 </div>
             </div>
         </div>
-        <div className='bg-[#14182E] px-5 sm:px-5 md:px-10 rounded-2xl mt-16'>
+        <div className=' hidden md:block bg-[#14182E] px-5 sm:px-5 md:px-10 rounded-2xl mt-16'>
             <div className='flex items-center justify-center relative h-28'>
                 {/* Purple background base */}
                 <div className='bg-primary w-5/12 h-full animate-glow'></div>
@@ -274,7 +274,10 @@ const Expand = () => {
                 </div>
             </div>
         </div>
-        <div className='flex flex-col items-center justify-center mt-20 max-w-md mx-auto '>
+        <div className='md:hidden overflow-x-hidden mt-12 '>
+            <img src="images/dashboardimg.png" alt="" />
+        </div>
+        <div className='flex flex-col items-center justify-center mt-10 md:mt-20 max-w-md mx-auto '>
             <h2 className='text-primary text-lg'>Explore Countless Benefits</h2>
             <h1 className='font-semibold text-center text-white text-4xl mt-6'>Launch a Custom <span className='font-dancing block'>Storefront</span> </h1>
             <div className="flex items-center justify-center w-fit space-x-2 bg-primary mt-6 text-white py-2 px-4 rounded-md hover:bg-secondary transition-colors">
