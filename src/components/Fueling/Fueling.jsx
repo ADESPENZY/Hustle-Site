@@ -27,7 +27,7 @@ const Fueling = () => {
         <section className="pt-8">
           <div className="relative overflow-x-hidden py-4">
             <div
-              className="flex items-center gap-6 md:w-[200%] px-4 animate-scroll"
+              className="flex items-center gap-6 w-full md:w-[200%] px-4 animate-scroll"
               style={{
                 animation: 'scroll 30s linear infinite', // Auto-scroll animation
               }}
@@ -454,7 +454,7 @@ const Fueling = () => {
 
               {/* Card 7 - Dashboard Overview */}
               <div
-                className=" h-fit bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl shadow-lg py-2 px-6 flex flex-col transform transition-all duration-300 hover:scale-105"
+                className="hidden h-fit bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl shadow-lg py-2 px-6 md:flex flex-col transform transition-all duration-300 hover:scale-105"
                 style={{
                   backgroundImage: "url('https://www.transparenttextures.com/patterns/leather.png')",
                   backgroundSize: 'cover',
