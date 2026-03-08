@@ -13,7 +13,7 @@ const Entrepreneur = () => {
       content: (
         <>
           <div className='flex justify-between items-center m-3 sm:m-3 md:m-5 text-black mb-3 sm:mb-3 md:mb-4'>
-            <span className='text-xs'>11:36</span>
+            <span className='text-xs'>11:36 content 1</span>
             <div className='space-x-2 sm:space-x-2 md:space-x-3 flex'>
               <ChartNoAxesColumnIncreasing size={12} sm:size={12} md:size={16} />
               <WifiIcon size={12} sm:size={12} md:size={16} />
